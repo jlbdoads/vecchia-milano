@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function Home() {
-  const phone = "5544999999999"; // Trocar pelo número real
+  const phone = "5544999934929"; // Trocar pelo número real
 
   return (
     <div className="min-h-screen bg-white">
