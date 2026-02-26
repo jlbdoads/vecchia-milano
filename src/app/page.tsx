@@ -48,7 +48,7 @@ export default function Home() {
             <nav className="hidden md:flex items-center gap-6">
               <a href="#marca" className="text-white hover:text-[#C9A227] transition">A Marca</a>
               <a href="#servicos" className="text-white hover:text-[#C9A227] transition">Serviços</a>
-              <a href="#produtos" className="text-white hover:text-[#C9A227] transition">Koleção</a>
+              <a href="#produtos" className="text-white hover:text-[#C9A227] transition">Coleção</a>
               <a href="#contato" className="text-white hover:text-[#C9A227] transition">Contato</a>
             </nav>
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
               target="_blank"
               className="inline-block bg-[#C9A227] text-white px-8 py-4 rounded-full font-medium hover:bg-[#B8941F] transition text-lg"
             >
-              Ver Koleção
+              Ver Coleção
             </Link>
           </div>
         </div>
@@ -144,11 +144,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Koleção */}
+      {/* Coleção */}
       <section id="produtos" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center text-[#1A1A1A] mb-12">
-            Nossa Koleção
+            Nossa Coleção
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {products.map((product, index) => (
