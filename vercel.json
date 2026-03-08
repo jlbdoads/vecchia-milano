@@ -1,3 +1,5 @@
 {
-  "name": "vecchia-milano"
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null
 }
