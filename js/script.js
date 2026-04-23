@@ -77,11 +77,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetElement = document.querySelector(targetId);
             
             if(targetElement) {
-                // Adjust for sticky header height
+                // Adjust for sticky header height + announcement bar on top
+                const announcementBar = document.querySelector('.announcement-bar');
+                const barHeight = announcementBar ? announcementBar.offsetHeight : 0;
                 const headerHeight = header.offsetHeight;
                 const elementPosition = targetElement.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
-        
+                const offsetPosition = elementPosition + window.pageYOffset - headerHeight - barHeight;
+
                 window.scrollTo({
                     top: offsetPosition,
                     behavior: 'smooth'

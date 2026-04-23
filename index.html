@@ -63,6 +63,15 @@
 
 <body>
 
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <a href="https://loja.vecchiamilano.com.br/" target="_blank" class="announcement-link">
+            <i class="fas fa-shopping-bag"></i>
+            <span><strong>Novidade:</strong> compre nossos acessórios de couro online — entrega para todo o Brasil</span>
+            <span class="announcement-arrow">→</span>
+        </a>
+    </div>
+
     <!-- Header Navigation -->
     <header class="main-header" id="header">
         <div class="container header-container">
@@ -72,9 +81,14 @@
             <nav class="main-nav">
                 <ul class="nav-links">
                     <li><a href="#inicio">Início</a></li>
-                    <li><a href="#conceito">Conceito</a></li>
-                    <li><a href="#colecao">Coleção</a></li>
-                    <li><a href="#localizacao">Localização</a></li>
+                    <li class="has-dropdown">
+                        <a href="#conceito">Conceito <i class="fas fa-chevron-down dropdown-arrow"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#colecao">Coleção</a></li>
+                            <li><a href="#localizacao">Localização</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://loja.vecchiamilano.com.br/" target="_blank" class="nav-shop-link"><i class="fas fa-shopping-bag"></i> Loja</a></li>
                 </ul>
                 <a href="https://wa.me/5544999934929?text=Gostaria%20de%20agendar%20um%20atendimento%20personalizado."
                     target="_blank" class="cta-button nav-cta">Atendimento Personalizado</a>
@@ -97,6 +111,9 @@
                 <div class="hero-actions animate-fade-in-up delay-2">
                     <a href="https://wa.me/5544999934929?text=Gostaria%20de%20agendar%20um%20atendimento%20personalizado."
                         target="_blank" class="cta-button primary-cta">Atendimento Personalizado</a>
+                    <a href="https://loja.vecchiamilano.com.br/" target="_blank" class="cta-button secondary-cta">
+                        <i class="fas fa-shopping-bag"></i> Comprar Online
+                    </a>
                 </div>
             </div>
         </section>
@@ -179,6 +196,22 @@
             </div>
         </section>
 
+        <!-- Online Shop CTA Section -->
+        <section class="shop-cta-section">
+            <div class="container">
+                <div class="shop-cta-box reveal-on-scroll">
+                    <div class="shop-cta-content">
+                        <span class="shop-cta-eyebrow">Loja Online</span>
+                        <h2>Leve a Vecchia Milano para casa.</h2>
+                        <p>Carteiras, cintos, bolsas e sapatos de couro legítimo — a mesma qualidade da loja física, com entrega em todo o Brasil.</p>
+                        <a href="https://loja.vecchiamilano.com.br/" target="_blank" class="cta-button shop-cta-button">
+                            <i class="fas fa-shopping-bag"></i> Ir para a Loja Online
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Location & CTA Section -->
         <section id="localizacao" class="location-section section-padding">
             <div class="container container-large">
@@ -233,6 +266,7 @@
                     <li><a href="#conceito">O Conceito</a></li>
                     <li><a href="#colecao">Coleção</a></li>
                     <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="https://loja.vecchiamilano.com.br/" target="_blank" class="footer-shop-link"><i class="fas fa-shopping-bag"></i> Loja Online</a></li>
                 </ul>
             </div>
             <div class="footer-social">
